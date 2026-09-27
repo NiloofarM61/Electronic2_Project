@@ -1,0 +1,62 @@
+Circuit: * D:\Downloads\projElec22.asc
+
+Instance "m3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(vout)
+DC component:-0.046716
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	1.119e-24	1.000e+00	   91.78°	    0.00°
+    2   	2.000e+03	4.456e-24	3.982e+00	   93.54°	    1.76°
+    3   	3.000e+03	9.949e-24	8.890e+00	   95.26°	    3.48°
+    4   	4.000e+03	1.750e-23	1.564e+01	   96.92°	    5.14°
+    5   	5.000e+03	2.698e-23	2.410e+01	   98.50°	    6.72°
+    6   	6.000e+03	3.822e-23	3.415e+01	   99.99°	    8.21°
+    7   	7.000e+03	5.105e-23	4.561e+01	  101.35°	    9.57°
+    8   	8.000e+03	6.527e-23	5.833e+01	  102.57°	   10.79°
+    9   	9.000e+03	8.071e-23	7.212e+01	  103.63°	   11.85°
+Total Harmonic Distortion: 11300.692278%(42966810731.684029%)
+
+
+
+Date: Thu Jul 10 22:27:26 2025
+Total elapsed time: 0.188 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2522
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 30
+fillins = 24
+solver = Normal
+Matrix Compiler1: 3.59 KB object code size  1.1/0.6/[0.6]
+Matrix Compiler2: off  [0.4]/0.5/0.6
+
